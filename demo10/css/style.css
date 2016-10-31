@@ -75,7 +75,7 @@ label{
 	  margin-right: 2em;
 }
 .top-menu li a{
-	color:#FFFFFF;
+	color:#87ceeb;
 	text-decoration:none;
 	display:block;
 	padding:0;
@@ -83,14 +83,14 @@ label{
 	font-size:1em;
 }	
 .top-menu li a.active{
-  color: #fff200;
+  color: #ace600;
   }
 /* Effect 16: fall down */
 .cl-effect-16 a {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 .cl-effect-16 a::before {
-	 color:#fff200;
+	 color:#ace600;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -344,7 +344,7 @@ label{
     padding-top: 13%;
 }
 .slider-top h2 {
-  	color: #fff200;
+  	color: #ace600;
   	font-size: 3em;
   	padding-top: 15px;
   	font-weight: 400;
@@ -376,17 +376,19 @@ label{
 	    padding: 0em 0;
 	}
 	.slide-bottom-grid h3 {
-	   color:#003b64;
+	   color:#87ceeb;
 	  font-size: 3em;
 	  font-weight: 400;
 	    font-family: 'Arvo', serif;
 	}
 	.slide-bottom-grid p {
-	color: #34495E;
+	color: black;
 	  font-weight: 400;
 	  font-size: 0.9em;
 	  margin: 0.5em 0;
 	  line-height: 1.7em;
+	  text-align:justify;
+	  padding:5px;
 	  }
 	.slide-bottom-grid {
 	  padding: 0 0 0 27px;
@@ -638,14 +640,14 @@ transition:0.5s all;
 }
 /*----events-section--------*/
 .culture-section {
-  background: #F4F4F4;
+  background: white;
      padding: 5em 0 3em 0;
 }
 .culture{
   padding-top: 3em;
 }
 .culture-head h3{
-   color:#003b64;
+   color:#87ceeb;
 font-size:3.3em;
     font-family: 'Arvo', serif;
 }
@@ -660,17 +662,18 @@ font-size:3.3em;
 	  margin-bottom: 3em;
 }
 .culture-grids p {
-  color:#34495E;
+  color: black;
   font-weight: 400;
   font-size: 0.9em;
   line-height: 1.6em;
   padding:2em;border: 1px solid #34495E;
+  text-align:justify;
 }
 .e_date {
    position: absolute;
   top: 0%;
   left: 15px;
-  background-color:#003b64;
+  background-color:#87ceeb;
   width: 61px;
   height: 55px;
   padding: 10px 16px;
@@ -679,11 +682,11 @@ font-size:3.3em;
   color: #fff;
   text-align: center;
   padding: 0.6em;
-  background-color: #333;
+  background-color:#87ceeb;
   font-size: 1.1em;
   }
   .culture-grids a h5:hover{
-   color:#fff200;
+   color:#ace600;
   }
 .e_date h4{
   color:#fff;
@@ -774,14 +777,14 @@ font-size:3.3em;
   border-left: 6px solid  #fff200;
 }
 .about-head h3,.member-head h3{
-   color:#003b64;
+   color:#87ceeb;
   font-size:3em;
     font-family: 'Arvo', serif;
 }
 .about-head p,.member-head p {
- color: #34495E;
+ color: #ace600;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1.1em;
   line-height: 1.7em;
   margin-bottom: 2em;
 }
@@ -790,21 +793,22 @@ font-size:3.3em;
   padding-top: 1em;
 }
 .about-text p,.about-text span{
- color: #34495E;
+ color: black;
   font-weight: 400;
   font-size: 0.9em;
   margin: 0.5em 0;
   line-height: 1.7em;
+  text-align:justify;
 }
 .member-section {
-  background: #F4F4F4;
+  background:white;
   padding: 4em 0 5em 0;
 }
 .member-grids h5 {
   color: #fff;
   text-align: center;
   padding: 0.6em;
-  background-color: #333;
+  background-color: #87ceeb;
   font-size: 1.1em;
     text-transform: uppercase;
 }
@@ -812,12 +816,13 @@ font-size:3.3em;
   width:100%;
 }
 .member-grids p {
-  color: #34495E;
+  color: black;
   font-weight: 400;
   font-size: 0.9em;
   line-height: 1.7em;
   padding:2em;
   border:1px solid #34495E;
+  text-align:justify;
 }
 /*--history--*/
 .history {
@@ -1134,12 +1139,12 @@ img.zoom-img:hover {
   -moz-transition: all 500ms!important;
 }
 .gallery-head h3 {
-  color: #003b64;
+  color: #87ceeb;
   font-size: 3.3em;
     font-family: 'Arvo', serif;
 }
 .gallery-head p {
-  color: #34495E;
+  color: #ace600;
   font-weight: 400;
   font-size: 0.9em;
   line-height: 1.7em;
@@ -1538,7 +1543,7 @@ p.reply i{
   padding-top: 4em;
 }
 .con-text h4 {
-  color: #34495E;
+  color:#87ceeb;
    font-weight:400;
   font-size:1.2em;
   line-height: 1.7em;
@@ -1546,11 +1551,12 @@ p.reply i{
   font-family: 'Arvo', serif;
 }
 .con-text p {
-    color: #34495E;
+    color: black;
   font-weight: 400;
   font-size: 0.9em;
   margin: 0.3em 0;
   line-height: 1.3em;
+  text-align:justify;
 }
 .contact-head {
   text-align: left;
@@ -1558,7 +1564,7 @@ p.reply i{
   border-left: 6px solid #fff200;
 }
 .contact-head  h3 {
-  color: #003b64;
+  color: #87ceeb;
   font-size: 3em;
     font-family: 'Arvo', serif;
 }
@@ -1633,9 +1639,9 @@ i.net{
 	resize:none;
 }
 .contact-form input[type="submit"]{
-   background:#003b64;
+   background:#87ceeb;
 	display: inline-block;
-	color:#fff200;
+	color:white;
 	text-transform: uppercase;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
@@ -1651,8 +1657,8 @@ i.net{
 	-o-border-radius: 4px;
 }
 .contact-form input[type="submit"]:hover{
- background:#fff200;
-  color:#003b64;
+ background:#ace600;
+  color:white;
  }
  .contact-top {
   padding: 1em 0;
@@ -1732,7 +1738,7 @@ i.net{
   font-weight: 400;
   text-decoration: none;
   margin: 5px 0;
-  color: #34495E;
+  color: black;
 }
 .products ul li a:hover, .company-adout ul li a:hover {
     color:#003b64;
@@ -1832,7 +1838,7 @@ i.net{
 	  min-height: 700px;
 	}
 	.slide-bottom-grid h3 {
-	  font-size: 2.7em;
+	  font-size: 1.8em;
 	  }
 	  .banner-text {
 	  position: absolute;
@@ -1845,10 +1851,10 @@ i.net{
 	  margin: 0.8em 0;
 	}
 	  .serve-head h3,.news-head h3,.culture-head h3 ,.history-head h3,.contact-head h3,.about-head h3, .member-head h3 {
-	    font-size: 2.8em;
+	    font-size: 1.4em;
 	  }
 	  .gallery-head h3{
-	  font-size: 3.2em;
+	  font-size: 1.8em;
 	  }
 	  .icon {
 	  width: 13%;
@@ -2018,7 +2024,7 @@ i.net{
 	font-size: 2.7em;
 	  }
 	.culture-grids p {
-	  color: #34495E;
+	  color: black;
 	  font-size: 0.85em;
 	  padding:2em;
 	}
@@ -2028,7 +2034,7 @@ i.net{
 	  margin: 0.5em 0;
 	}
 	.mid-bg {
-	  background: url("../images/mid-bg.jpg") no-repeat 0px 0px;
+	  background: url("../images/home/mid-bg.jpg") no-repeat 0px 0px;
 	  background-size: cover;
 	  -o-background-size: cover;
 	  -moz-background-size: cover;
@@ -2036,6 +2042,65 @@ i.net{
 	  -webkit-background-size: cover;
 	  min-height: 473px;
 	}
+	
+	.aboutmid-bg {
+  background: url("../images/about/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 473px;
+}
+.facilities-bg {
+  background: url("../images/facilities/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+   min-height: 473px;
+}
+.programmes-bg {
+  background: url("../images/programmes/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 473px;
+}
+.branches-bg {
+  background: url("../images/branches/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 473px;
+}
+.franchise-bg {
+  background: url("../images/franchise/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 473px;
+}
+.admission-bg {
+  background: url("../images/admission/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 473px;
+}
+	
+	
+	
+	
 	.address-right h3, .products h3, .company-adout h3 {
 	  font-size: 2.2em;
 	}
@@ -2073,7 +2138,7 @@ i.net{
 	  top: 42%;
 	  }
 	  .about-text p, .about-text span {
-	  color: #34495E;
+	  color:black;
 	  font-size: 0.85em;
 	  margin: 0.5em 0;
 	}
@@ -2239,7 +2304,7 @@ i.net{
 	  margin: 0.5em 0;
 	}
 	.mid-bg {
-	  background: url("../images/mid-bg.jpg") no-repeat 0px 0px;
+	  background: url("../images/home/mid-bg.jpg") no-repeat 0px 0px;
 	  background-size: cover;
 	  -o-background-size: cover;
 	  -moz-background-size: cover;
@@ -2247,6 +2312,64 @@ i.net{
 	  -webkit-background-size: cover;
 	 min-height: 338px;
 	}
+	
+	.aboutmid-bg {
+  background: url("../images/about/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 338px;
+}
+.facilities-bg {
+  background: url("../images/facilities/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+   min-height: 338px;
+}
+.programmes-bg {
+  background: url("../images/programmes/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 338px;
+}
+.branches-bg {
+  background: url("../images/branches/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 338px;
+}
+.franchise-bg {
+  background: url("../images/franchise/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 338px;
+}
+.admission-bg {
+  background: url("../images/admission/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 338px;
+}
+	
+	
+	
 	.address-right {
 	  float: right;
 	  width: 42%;
@@ -2581,7 +2704,7 @@ i.net{
 	  width: 94%;
 	}
 	.mid-bg {
-	  background: url("../images/mid-bg.jpg") no-repeat 0px 0px;
+	  background: url("../images/home/mid-bg.jpg") no-repeat 0px 0px;
 	  background-size: cover;
 	  -o-background-size: cover;
 	  -moz-background-size: cover;
@@ -2589,6 +2712,62 @@ i.net{
 	  -webkit-background-size: cover;
 	  min-height: 328px;
 	}
+	.aboutmid-bg {
+  background: url("../images/about/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 328px;
+}
+.facilities-bg {
+  background: url("../images/facilities/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+   min-height: 328px;
+}
+.programmes-bg {
+  background: url("../images/programmes/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 328px;
+}
+.branches-bg {
+  background: url("../images/branches/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 328px;
+}
+.franchise-bg {
+  background: url("../images/franchise/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height: 328px;
+}
+.admission-bg {
+  background: url("../images/admission/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+     min-height: 328px;
+}
+	
+	
 	.mid-section {
 	  padding-top: 5em;
 	}
@@ -2653,7 +2832,7 @@ i.net{
 	  height: 42px;
 	}
 	.slider-top h2 {
-	  font-size: 1.8em;
+	  font-size: 1.5em;
 	}
 	.slider-top h6 {
 	  font-size: 1.1em;
@@ -2870,6 +3049,12 @@ i.net{
 	}
 }
 @media (max-width:320px){
+
+.mobileno{
+font-size:18px;
+padding:5px;
+}
+
 	.header {
 	  background: url("../images/bg.jpg") no-repeat 0px 0px;
 	  background-size: 100% 100%;
@@ -2895,7 +3080,7 @@ i.net{
 	  padding: 1em 0 0 0;
 	}
 	.serve-head h3, .news-head h3, .culture-head h3, .history-head h3, .contact-head h3, .about-head h3, .member-head h3 {
-	    font-size: 1.5em;
+	    font-size: 1em;
 	}
 	.con-icon {
 	  float: left;
@@ -2973,7 +3158,7 @@ i.net{
 	  padding-top:1em;
 	}
 	.mid-bg {
-	  background: url("../images/mid-bg.jpg") no-repeat 0px 0px;
+	  background: url("../images/home/mid-bg.jpg") no-repeat 0px 0px;
 	  background-size: cover;
 	  -o-background-size: cover;
 	  -moz-background-size: cover;
@@ -2981,6 +3166,64 @@ i.net{
 	  -webkit-background-size: cover;
 	  min-height:182px;
 	}
+	.aboutmid-bg {
+  background: url("../images/about/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height:182px;
+}
+.facilities-bg {
+  background: url("../images/facilities/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+   min-height:182px;
+}
+.programmes-bg {
+  background: url("../images/programmes/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height:182px;
+}
+.branches-bg {
+  background: url("../images/branches/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height:182px;
+}
+.franchise-bg {
+  background: url("../images/franchise/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+    min-height:182px;
+}
+.admission-bg {
+  background: url("../images/admission/mid-bg.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+min-height:182px;
+}
+	
+	
+	
+	
 	.member-section {
 	  padding: 1em 0 1em 0;
 	}
@@ -3196,4 +3439,11 @@ i.net{
 	  font-size: 0.8em;
 	}
 
+}
+.mobileno{
+color:#87ceeb;
+}
+.contacttristha{
+font-size:18px;
+line-height:30px
 }
